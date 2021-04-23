@@ -18,6 +18,6 @@ Alogorytm i aplikacja napisane na potrzeby rekrutacji.
 2. Zrobione.
 3. Póki co brak - próbowałem zrobić testy, ale problem jest taki, że nie wiem co powinno się testować :c. Chciałem napisać test do sprawdzania czy podane parametry do funkcji są stringiem i numberem, ale nie mogłem znaleźć informacji o tym jak to się robi. Być może nie ma takich testów :(
 4. Zrobione, zakoduj lub odkoduj wiadomość - output widzimy w czasie rzeczywistym.
-5. Zrobione - nie wiem czy chodziło o to co zrobiłem, ale w(Master Password)[https://en.wikipedia.org/wiki/Master_Password_(algorithm)] tworzy przekierowanie (?) na podstawie podanego np. imienia i nazwiska - u mnie Route jest właśnie generowany na podstawie wpisanych danych. Podkreślam - nie wiem czy o to chodziło :c
+5. Zrobione - nie wiem czy chodziło o to co zrobiłem, ale w [Master Password](<https://en.wikipedia.org/wiki/Master_Password_(algorithm)>) tworzy przekierowanie (?) na podstawie podanego np. imienia i nazwiska - u mnie Route jest właśnie generowany na podstawie wpisanych danych. Podkreślam - nie wiem czy o to chodziło :c
 6. Dokumentacja zrobiona w formie komentarzy.
 7. Nigdy tego nie robiłem, ale zobaczę kiedy i po co to się robi :D.
