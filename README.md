@@ -2,6 +2,8 @@
 
 Alogorytm i aplikacja napisane na potrzeby rekrutacji.
 
+Link do aplikacji: [Link](https://app.netlify.com/sites/festive-wozniak-340b15/overview)
+
 ## ToDo
 
 1. obsługiwane znaki - alfabet łaciński case sensitive, cyfry, znaki interpunkcyjne i białe znaki - minimum to spacja, tabulator, znak nowej linii
