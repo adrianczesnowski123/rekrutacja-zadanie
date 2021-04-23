@@ -1,0 +1,40 @@
+.Wrapper {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.Title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.Textarea,
+.Input {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 0 1.5rem 0;
+  padding: 4px 8px;
+  border: 1px solid rgba(45, 94, 156, 0.7);
+  border-radius: 8px;
+}
+
+.Textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.Text {
+  margin: 0 0 0.8rem;
+}
