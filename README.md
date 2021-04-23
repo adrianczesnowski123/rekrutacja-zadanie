@@ -2,6 +2,10 @@
 
 Alogorytm i aplikacja napisane na potrzeby rekrutacji.
 
+Link do aplikacji: [Link](https://app.netlify.com/sites/festive-wozniak-340b15/overview)
+
+## SAM ALGORYTM ZNAJDUJE SIĘ W PLIKU "script.js" / algorytm wykorzystany w aplikacji znajduje się w utils/utils.js
+
 ## ToDo
 
 1. obsługiwane znaki - alfabet łaciński case sensitive, cyfry, znaki interpunkcyjne i białe znaki - minimum to spacja, tabulator, znak nowej linii
