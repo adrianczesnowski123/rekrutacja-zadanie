@@ -2,7 +2,7 @@
 
 Alogorytm i aplikacja napisane na potrzeby rekrutacji.
 
-Link do aplikacji: [Link](https://app.netlify.com/sites/festive-wozniak-340b15/overview)
+Link do aplikacji: [Link](https://festive-wozniak-340b15.netlify.app/)
 
 ## SAM ALGORYTM ZNAJDUJE SIĘ W PLIKU "script.js" / algorytm wykorzystany w aplikacji znajduje się w utils/utils.js
 
