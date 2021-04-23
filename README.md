@@ -20,7 +20,7 @@ Link do aplikacji: [Link](https://festive-wozniak-340b15.netlify.app/)
 
 1. Zrobione, niestety bez znaku tab i nowej linii - nie działało to w mojej metodzie, a przynajmniej nie chciało działać tak jak ja to robiłem. Rozwiązania szukałem na stacku i github, ale również nie mogłem nic znaleźć co dawałoby poprawny efekt.
 2. Zrobione.
-3. Póki co brak - próbowałem zrobić testy, ale problem jest taki, że nie wiem co powinno się testować :c. Chciałem napisać test do sprawdzania czy podane parametry do funkcji są stringiem i numberem, ale nie mogłem znaleźć informacji o tym jak to się robi. Być może nie ma takich testów :(
+3. Proste testy zrobione, sprawdzające czy podaliśmy dwa argumenty do funkcji. Nie wiedziałem co więcej można przetestować w tej funkcji.
 4. Zrobione, zakoduj lub odkoduj wiadomość - output widzimy w czasie rzeczywistym.
 5. Zrobione - nie wiem czy chodziło o to co zrobiłem, ale w [Master Password](<https://en.wikipedia.org/wiki/Master_Password_(algorithm)>) tworzy przekierowanie (?) na podstawie podanego np. imienia i nazwiska - u mnie Route jest właśnie generowany na podstawie wpisanych danych. Podkreślam - nie wiem czy o to chodziło :c
 6. Dokumentacja zrobiona w formie komentarzy.
