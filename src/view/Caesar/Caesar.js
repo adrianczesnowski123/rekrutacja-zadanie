@@ -34,7 +34,7 @@ const Caesar = () => {
             value={messageCipher}
           />
         </form>
-        <p className={styles.Text}>Zakodowana wiadomość:</p>
+        <p className={styles.Text}>Encode message:</p>
         <p className={styles.Text}>
           {algorithmCipher(messageCipher, shiftCipher)}
         </p>
@@ -62,7 +62,7 @@ const Caesar = () => {
             value={messageDecipher}
           />
         </form>
-        <p className={styles.Text}>Odkodowana wiadomość: </p>
+        <p className={styles.Text}>decode message: </p>
         <p className={styles.Text}>
           {algorithmDecipher(messageDecipher, shiftDecipher)}
         </p>
