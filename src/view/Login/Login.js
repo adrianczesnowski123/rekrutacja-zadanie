@@ -38,7 +38,6 @@ const Login = ({ inputValue, inputValueHandler }) => {
   const loginHandler = (e) => {
     e.preventDefault();
     history.push(`/caesar/${inputValue}`);
-    window.location.reload();
   };
 
   return (
