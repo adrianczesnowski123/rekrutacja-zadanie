@@ -25,6 +25,9 @@ const useStyles = makeStyles(() => ({
     margin: '3rem 0 2rem',
     fontSize: '1.3rem',
   },
+  input: {
+    fontSize: '1.6rem',
+  },
 }));
 
 const Login = ({ inputValue, inputValueHandler }) => {
@@ -35,6 +38,7 @@ const Login = ({ inputValue, inputValueHandler }) => {
   const loginHandler = (e) => {
     e.preventDefault();
     history.push(`/caesar/${inputValue}`);
+    window.location.reload();
   };
 
   return (
@@ -56,6 +60,11 @@ const Login = ({ inputValue, inputValueHandler }) => {
             id="name"
             value={inputValue}
             onChange={inputValueHandler}
+            InputProps={{
+              classes: {
+                input: classes.input,
+              },
+            }}
           />
           <Button
             type="submit"

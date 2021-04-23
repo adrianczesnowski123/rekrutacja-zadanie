@@ -1,0 +1,22 @@
+.Textarea,
+.Input {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 0 1.5rem 0;
+  padding: 4px 8px;
+  border: 1px solid rgba(45, 94, 156, 0.7);
+  border-radius: 8px;
+  font-size: 1.4rem;
+}
+
+.Textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+@media (min-width: 768px) {
+  .Textarea {
+    min-height: 120px;
+    resize: none;
+  }
+}

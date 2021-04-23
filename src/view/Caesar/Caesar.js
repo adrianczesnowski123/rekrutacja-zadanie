@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Caesar.module.css';
+import Input from '../../components/Input/Input';
 import { algorithmCipher, algorithmDecipher } from '../../utils/utils';
 
 const Caesar = () => {
@@ -14,24 +15,24 @@ const Caesar = () => {
       <div className={styles.FormContainer}>
         <h2 className={styles.Title}>encode your message with caesar cipher</h2>
         <form name="cipherEncode">
-          <input
-            className={styles.Input}
+          <Input
             type="number"
             id="shiftEncode"
             name="shiftEncode"
             placeholder="Shift by..."
-            onChange={(e) => setShiftCipher(e.target.value)}
+            handleChange={(e) => setShiftCipher(e.target.value)}
             value={shiftCipher}
           />
           <br />
-          <textarea
+          <Input
+            tag="textarea"
             className={styles.Textarea}
             name="messageEncode"
             id="messageEncode"
             placeholder="Message to code"
-            onChange={(e) => setMessageCipher(e.target.value)}
+            handleChange={(e) => setMessageCipher(e.target.value)}
             value={messageCipher}
-          ></textarea>
+          />
         </form>
         <p className={styles.Text}>Zakodowana wiadomość:</p>
         <p className={styles.Text}>
@@ -42,24 +43,24 @@ const Caesar = () => {
       <div className={styles.FormContainer}>
         <h2 className={styles.Title}>decode your message with caesar cipher</h2>
         <form name="cipherDecode">
-          <input
-            className={styles.Input}
+          <Input
             type="number"
             id="shiftDecode"
             name="shiftDecode"
             placeholder="Shift by..."
-            onChange={(e) => setShiftDecipher(e.target.value)}
+            handleChange={(e) => setShiftDecipher(e.target.value)}
             value={shiftDecipher}
           />
           <br />
-          <textarea
+          <Input
+            tag="textarea"
             className={styles.Textarea}
             name="messageDecode"
             id="messageDecode"
             placeholder="Message to decode"
-            onChange={(e) => setMessageDecipher(e.target.value)}
+            handleChange={(e) => setMessageDecipher(e.target.value)}
             value={messageDecipher}
-          ></textarea>
+          />
         </form>
         <p className={styles.Text}>Odkodowana wiadomość: </p>
         <p className={styles.Text}>
