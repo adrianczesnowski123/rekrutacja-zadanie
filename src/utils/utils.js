@@ -3,6 +3,10 @@
 
 //cipher
 export function algorithmCipher(text, shift) {
+  //tests
+  if (!text) throw new Error('Missing argument: text');
+  if (!shift) throw new Error('Missing argument: shift');
+
   let word = '';
 
   //variable to hold the current character in ascii format
@@ -28,6 +32,10 @@ export function algorithmCipher(text, shift) {
 
 //decipher
 export function algorithmDecipher(text, shift) {
+  //tests
+  if (!text) throw new Error('Missing argument: text');
+  if (!shift) throw new Error('Missing argument: shift');
+
   let word = '';
 
   //variable to hold the current character in ascii format
