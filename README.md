@@ -3,7 +3,7 @@
 Alogorytm i aplikacja napisane na potrzeby rekrutacji.
 
 - Link do aplikacji: [Link](https://festive-wozniak-340b15.netlify.app/)
-- Link do głównego konta GitHub: [Link](https://github.com/adrianczesnowski)
+- Link do głównego konta GitHub: [Link](https://github.com/adrianczesnowski)  (zadanie dodaje na to konto, ponieważ tamto konto jest ogólnodostępne np. na LinkedIn - nie chciałbym żeby inne osoby wiedziały na czym polegało to zadanie, bo raczej nie powinienem mówić innym jak wygląda zadanie rekrutacyjne :D)
 
 ## SAM ALGORYTM ZNAJDUJE SIĘ W PLIKU "script.js" / algorytm wykorzystany w aplikacji znajduje się w utils/utils.js
 
