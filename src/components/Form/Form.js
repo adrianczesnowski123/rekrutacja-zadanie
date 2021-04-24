@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './Form.module.css';
 import Input from '../Input/Input';
 
@@ -48,6 +49,19 @@ const Form = ({
       </div>
     </div>
   );
+};
+
+Form.propTypes = {
+  formTitle: PropTypes.string.isRequired,
+  formName: PropTypes.string.isRequired,
+  algorithmFunc: PropTypes.func.isRequired,
+  inputType: PropTypes.string.isRequired,
+  inputId: PropTypes.string.isRequired,
+  textareaId: PropTypes.string.isRequired,
+  textMessage: PropTypes.string.isRequired,
+  setMessageValue: PropTypes.func.isRequired,
+  setShiftValue: PropTypes.func.isRequired,
+  messageValue: PropTypes.string.isRequired,
 };
 
 export default Form;
