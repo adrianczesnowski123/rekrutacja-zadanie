@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Caesar.module.css';
-import Input from '../../components/Input/Input';
+import Form from '../../components/Form/Form';
 import { algorithmCipher, algorithmDecipher } from '../../utils/utils';
 
 const Caesar = () => {
@@ -12,61 +12,32 @@ const Caesar = () => {
 
   return (
     <div className={styles.Wrapper}>
-      <div className={styles.FormContainer}>
-        <h2 className={styles.Title}>encode your message with caesar cipher</h2>
-        <form name="cipherEncode">
-          <Input
-            type="number"
-            id="shiftEncode"
-            name="shiftEncode"
-            placeholder="Shift by..."
-            handleChange={(e) => setShiftCipher(e.target.value)}
-            value={shiftCipher}
-          />
-          <br />
-          <Input
-            tag="textarea"
-            className={styles.Textarea}
-            name="messageEncode"
-            id="messageEncode"
-            placeholder="Message to code"
-            handleChange={(e) => setMessageCipher(e.target.value)}
-            value={messageCipher}
-          />
-        </form>
-        <p className={styles.Text}>Encode message:</p>
-        <p className={styles.Text}>
-          {algorithmCipher(messageCipher, shiftCipher)}
-        </p>
-      </div>
-
-      <div className={styles.FormContainer}>
-        <h2 className={styles.Title}>decode your message with caesar cipher</h2>
-        <form name="cipherDecode">
-          <Input
-            type="number"
-            id="shiftDecode"
-            name="shiftDecode"
-            placeholder="Shift by..."
-            handleChange={(e) => setShiftDecipher(e.target.value)}
-            value={shiftDecipher}
-          />
-          <br />
-          <Input
-            tag="textarea"
-            className={styles.Textarea}
-            name="messageDecode"
-            id="messageDecode"
-            placeholder="Message to decode"
-            handleChange={(e) => setMessageDecipher(e.target.value)}
-            value={messageDecipher}
-          />
-        </form>
-        <p className={styles.Text}>decode message: </p>
-        <p className={styles.Text}>
-          {algorithmDecipher(messageDecipher, shiftDecipher)}
-        </p>
-      </div>
+      <Form
+        formTitle="encode your message with caesar cipher"
+        formName="cipherEncode"
+        algorithmFunc={() => algorithmCipher(messageCipher, shiftCipher)}
+        shiftValue={shiftCipher}
+        setShiftValue={setShiftCipher}
+        messageValue={messageCipher}
+        setMessageValue={setMessageCipher}
+        inputType="number"
+        inputId="shiftEncode"
+        textareaId="messageEncode"
+        textMessage="Encoded message:"
+      />
+      <Form
+        formTitle="decode your message with caesar cipher"
+        formName="cipherDecode"
+        algorithmFunc={() => algorithmDecipher(messageDecipher, shiftDecipher)}
+        shiftValue={shiftDecipher}
+        setShiftValue={setShiftDecipher}
+        messageValue={messageDecipher}
+        setMessageValue={setMessageDecipher}
+        inputType="number"
+        inputId="shiftDecode"
+        textareaId="messageDecode"
+        textMessage="Decoded message:"
+      />
     </div>
   );
 };

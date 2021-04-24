@@ -1,0 +1,36 @@
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto 4rem;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  background: rgba(45, 94, 156, 0.15);
+}
+
+.Title {
+  font-size: 1.6rem;
+  margin: 0 0 1.2rem;
+  font-weight: 500;
+}
+
+.TextWrapper {
+  padding: 3px 5px;
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+  border-radius: 6px;
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+.TextTitle {
+  margin: 0 0 0.8rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.Text {
+  font-size: 1.3rem;
+  margin: 0 0 0.8rem;
+}

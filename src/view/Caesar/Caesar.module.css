@@ -3,24 +3,12 @@
   padding: 16px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin: 0 auto;
-}
-
-.Title {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.FormContainer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
   max-width: 1200px;
-  margin: 0 auto 4rem;
 }
 
-.Text {
-  margin: 0 0 0.8rem;
+@media (min-width: 1000px) {
+  .Wrapper {
+    flex-direction: row;
+  }
 }
