@@ -33,5 +33,6 @@ Alogorytm i aplikacja napisane na potrzeby rekrutacji.
 - Na pewno mógłbym samą aplikację rozbić na więcej komponentów, ale pomyślałem, że nie ma takiej potrzeby, jeśli nie jest ona skomplikowana.
 - Walidacja inputów chyba nie jest potrzebna - na pewno zrobiłbym to, gdyby zakodowana / odkodowana wiadomość pokazywałaby się dopiero po kliknięciu przycisku.
 - Sam design raczej na kiepskim poziomie - ciągle nad tym pracuje. 
+- PropTypes.
 
 Jeżeli można, to proszę o napisanie co mógłbym zrobić inaczej i jakie błędy popełniłem, żeby nie popełniać tych błędów w przyszłości.
