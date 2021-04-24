@@ -1,5 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import styles from './Input.module.css';
 
 const Input = ({ tag: Tag, name, type, value, handleChange, placeholder }) => {
@@ -31,6 +31,18 @@ const Input = ({ tag: Tag, name, type, value, handleChange, placeholder }) => {
       )}
     </>
   );
+};
+
+Input.defaultProps = {
+  Tag: 'input',
+};
+
+Input.propTypes = {
+  Tag: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  placeholder: PropTypes.string.isRequired,
+  handleChange: PropTypes.func.isRequired,
 };
 
 export default Input;
